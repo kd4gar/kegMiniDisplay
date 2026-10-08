@@ -14,7 +14,8 @@ Built as a learning project for driving a small screen from an ESP32.
 - **Portrait or landscape** – set `ROTATION` at the top of the sketch.
 
 ## API
-The kegerator returns JSON like:
+The data comes from the kegerator itself, running [kegerator-gauge](https://github.com/kd4gar/kegerator-gauge).
+It returns JSON like:
 ```json
 {"psi": 12.3, "kegF": 41.3, "airF": 41.3}
 ```
